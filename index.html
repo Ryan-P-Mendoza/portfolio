@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Mendoza Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ryan Mendoza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm Ryan Mendoza</h1>
+                <p>Software Developer | Consultant | Tech Enthusiast</p>
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/ryan-mendoza.jpg" alt="Ryan Mendoza" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/ryan-profile.jpg" alt="Ryan Mendoza" class="img-fluid about-img">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        Hi, I’m Ryan Mendoza, a Computer Science graduate from The University of Texas, Dallas, with experience in software development and project management. 
+                        Currently, I work as an Implementation Analyst at Enforce Consulting, supporting HCM talent modules and ensuring client satisfaction. 
+                        Previously, I interned at Dynacraft, where I led automation efforts to improve operational efficiency. 
+                        I have a strong interest in video editing, computer building, and photography.
+                    </p>
+                    <h3>Skills</h3>
+                    <ul class="skills-list">
+                        <li>Backend Development (C/C++, Java, Python)</li>
+                        <li>Web Development (HTML, CSS, JavaScript)</li>
+                        <li>Database Management (SQL, MongoDB)</li>
+                        <li>Version Control (Git, GitHub)</li>
+                        <li>Responsive Design (Bootstrap, Flexbox)</li>
+                        <li>Professional (Photoshop, Office, Sony Vegas)</li>
+                    </ul>
+                    <a href="images/Ryan_Mendoza_CV.pdf" download="Ryan_Mendoza_CV.pdf" class="btn btn-primary mt-3">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title text-center">Experience</h2>
+            <div class="row">
+                <!-- Experience Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Implementation Analyst</h5>
+                            <p class="card-subtitle mb-2 company-location">Enforce Consulting</p>
+                            <p class="card-subtitle mb-2 date-range">July 2024 - Present</p>
+                            <p class="card-text">
+                                Working under the talent domain team to provide support with HCM talent modules such as recruiting, onboarding, performance, compensation, and engagement.
+                                I also manage support tickets and ensure client satisfaction while meeting SLAs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Developer Intern</h5>
+                            <p class="card-subtitle mb-2 company-location">Dynacraft, A PACCAR Company</p>
+                            <p class="card-subtitle mb-2 date-range">May 2023 - December 2023</p>
+                            <p class="card-text">
+                                Led the introduction of UiPath automation, reducing invoice processing time by 10 hours per week. Collaborated on CI/CD integration, decreasing deployment times by 15%.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sr. Resident Specialist</h5>
+                            <p class="card-subtitle mb-2 company-location">Balfour Beatty Communities</p>
+                            <p class="card-subtitle mb-2 date-range">January 2023 - May 2023</p>
+                            <p class="card-text">
+                                Trained new employees on leasing software and assisted with leasing tasks. I also helped streamline marketing and outreach efforts for prospective residents.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <div class="row">
+                <!-- Project Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project1.png" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">RNN Weather Prediction</h5>
+                            <p class="card-text">Recurrent Neural Network made from scratch to predict the temperature</p>
+                            <p><strong>Technologies:</strong> Python, Pandas, Numpy</p>
+                            <a href="https://github.com/Ryan-P-Mendoza/RNN_Weather_Prediciton" class="btn btn-primary" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More project cards can follow -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project2.png" alt="Project 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Database Project</h5>
+                            <p class="card-text">This is a simple database project. It utilizes a binary search tree to sort keywords for articles.</p>
+                            <p><strong>Technologies:</strong> Java</p>
+                            <a href="https://github.com/Ryan-P-Mendoza/DatabaseProject" class="btn btn-primary" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More project cards can follow -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project3.jpg" alt="Project 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Snake Game</h5>
+                            <p class="card-text">This is the game snake programed in MIPS Assembly for Bitmap</p>
+                            <p><strong>Technologies:</strong> MIPS, Assembly, Bitmap</p>
+                            <a href="https://github.com/Ryan-P-Mendoza/DatabaseProject" class="btn btn-primary" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section with Icons -->
+    <section id="contact" class="contact-section">
+        <div class="container text-center">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Find Me On:</h4>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/yourusername" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:RYMENDOZA71@gmail.com" class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Font Awesome CDN (using the link tag instead of script) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Include Bootstrap JS and other scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

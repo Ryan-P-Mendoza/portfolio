@@ -1,0 +1,276 @@
+
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #000000, #1a1a40); /* Hero background gradient */
+    color: #fff; /* White text */
+    padding-top: 100px; /* Allow space for fixed navbar */
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #b3b3ff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+    background-color: #4f75b6;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+/* Divider Between Sections */
+.section-divider {
+    background-color: #1b1b1b; /* Dark grey color for the divider */
+    height: 15px; /* Thin divider */
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: #1a1a40;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 1.1rem;
+    color: #ddd;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: #4f75b6;
+    color: #fff;
+}
+
+.about-img {
+    max-width: 80%;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Experience Section */
+.experience-section {
+    padding: 60px 0;
+    background-color: #1a1a40; /* Darker background to match the other sections */
+    color: #fff;
+}
+
+.experience-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fff; /* White title for better visibility */
+    text-align: center;
+}
+
+.experience-section .card {
+    display: flex; /* Use flexbox to make the cards flexible and have equal height */
+    flex-direction: column; /* Stack the card contents vertically */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #333; /* Lighter dark background for card body */
+    margin-bottom: 20px;
+    height: 100%; /* Ensure cards stretch to the same height */
+}
+
+.experience-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align text properly */
+    padding: 20px;
+    background-color: #333; /* Lighter dark background for card body */
+    flex-grow: 1; /* Allow the content to expand and take up available space */
+    text-align: center; /* Center the content */
+}
+
+/* Experience Section Card Title */
+.experience-section .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White color for job titles */
+    margin-bottom: 10px; /* Space between the title and other content */
+}
+
+/* Experience Section Card Subtitle (Company/Location) */
+.experience-section .card-body .card-subtitle {
+    font-size: 1rem;
+    font-weight: italic;
+    color: #d1d1d1 !important; /* Force white color */
+    margin-bottom: 10px; /* Space between company and date range */
+}
+
+/* Experience Section Card Date Range */
+.experience-section .card-body .date-range {
+    font-size: 1rem;
+    color: #d1d1d1 !important; /* Lighter gray for date range */
+    margin-bottom: 10px; /* Space between date range and description */
+}
+
+/* Experience Section Card Text (Description) */
+.experience-section .card-text {
+    font-size: 0.9rem;
+    color: #fff; /* White color for description text */
+    margin-top: auto; /* Push description to the bottom of the card */
+}
+
+
+
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+    background-color: #1a1a40; /* Darker background to match the other sections */
+    color: #fff;
+}
+
+.projects-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.projects-section .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #2a2a2a;
+}
+
+.projects-section .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.projects-section .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projects-section .card-body p {
+    font-size: 1rem;
+    color: #b3b3b3; /* Light gray color for technologies text */
+}
+
+.projects-section .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.projects-section .card-text {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #000000, #1a1a40);
+    color: #fff;
+}
+
+.contact-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section .social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section .social-links li {
+    margin: 0 20px;
+}
+
+.contact-section .social-links a {
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-section .social-links a:hover {
+    color: #4f75b6;
+}
